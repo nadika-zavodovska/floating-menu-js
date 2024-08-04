@@ -39,6 +39,12 @@ body{
   padding: 0.5lh 1.5lh;
   inline-size: 100%;
 }
+.button:hover,
+.button:focus-visible,
+.menu__link:hover,
+.menu__link:focus-visible{
+  background-color: olivedrab;
+}
 
 .menu{
 line-height: 0;
